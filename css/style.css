@@ -11,6 +11,11 @@ body {
 
 h1 {
   font: 600 3.5em "Raleway", sans-serif;
+  transition: all 1s;
+}
+h1:hover {
+
+    transform: scale(1.1);
 }
 
 h3 {
@@ -21,4 +26,9 @@ h3 {
     letter-spacing: 0.01em;
 
 
+}
+input:hover {
+
+    transform: scale(1.1);
+ 
 }
